@@ -4,6 +4,6 @@ import { auth } from '../middleware/authMiddleware';
 
 const router = express.Router();
 
-router.post('/:brandId', auth, crawlWebsite); // empty for now
+router.post('/test', crawlWebsite);
 
 export default router;
